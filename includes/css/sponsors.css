@@ -1,0 +1,87 @@
+.sponsors-header {
+  color: #00919E;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+/* .sponsors-header::after, h2::after{
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  background-color: #e77d3d;
+} */
+.line h2::after {
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  bottom: -5px;
+  background-color: #e77d3d;
+  content: " ";
+}
+.sponsor-logo-wrap {
+  height: 180px;
+  padding: 20px;
+  border: 1px solid #dadad9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-logo img{
+  height: auto;
+  max-width: 100%;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 100px;
+  width: 220px;
+}
+.priority-one {
+  height: 240px;
+}
+
+.sponsor-details {
+  margin-bottom: 10px;
+}
+.icon-info {
+  color: #E77D3D;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  display: none;
+  max-height: -webkit-fill-available;
+  text-overflow: ellipsis;
+  overflow: auto;
+  /* position: relative; */
+}
+
+.descriptionAll  {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 111;
+  padding: 5px;
+}
+
+.description:hover .descriptionAll { 
+  visibility: visible;
+}
+.activeLogo {
+  display: block !important;
+}

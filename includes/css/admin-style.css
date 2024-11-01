@@ -1,0 +1,11 @@
+.pages-generated > tbody > tr > td{
+    vertical-align: middle;
+}
+#toplevel_page_zig-notch-admin-page > a > div.wp-menu-image.dashicons-before > img{
+    width:20px !important; 
+    height: auto;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
